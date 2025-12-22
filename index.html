@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraPuls'R NANO RF</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page-container">
+
+    <section class="logo-section">
+      <img src="PULSE-BOI.png" alt="TerraPuls'R Logo" class="logo-img" />
+    </section>
+    
+    <h1 class="logo-title">TerraPuls'R NANO RF</h1>
+
+    <section class="info-section1">
+      <h2>our concern</h2>
+      <p>
+        We live surrounded by invisible threats — polluted air, rising temperatures, harsh UV, noise, and humidity spikes.
+        The environmental data around you is mostly unknown — and that unknown affects us all.
+      </p>
+    </section>
+
+    <section class="info-section2">
+      <h2>TerraPuls'R NANO</h2>
+      <p>
+        TerraPuls'R NANO is a pocket-sized environmental scanner delivering accurate, real-time data you can trust.
+      </p>
+    </section>
+
+    <!-- WAITLIST -->
+    <section class="waitlist-section">
+      <h2>Join the Waitlist</h2>
+
+      <form onsubmit="return handleSignup();">
+        <input 
+          type="email" 
+          id="email1" 
+          class="email-input" 
+          placeholder="Enter your email" 
+          required>
+
+        <input 
+          type="email" 
+          id="email2" 
+          class="email-input" 
+          placeholder="Re-enter your email" 
+          required>
+
+        <button type="submit" class="button">Enter</button>
+      </form>
+
+      <p id="statusMessage"></p>
+    </section>
+
+    <section class="FAQ">
+      <a href="FAQs.html"><button class="button">FAQs</button></a>
+    </section>
+
+    <section class="Timeline">
+      <a href="Timeline.html"><button class="button">Timeline</button></a>
+    </section>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

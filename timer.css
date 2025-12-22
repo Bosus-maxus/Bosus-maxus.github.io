@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.note {
+  font-size: 20px;
+  opacity: 0.85;
+  margin-bottom: 30px;
+}
+
+.back {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.discord-btn {
+  background: #ffffff;
+  color: #000;
+  padding: 16px 28px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 40px;
+  transition: 0.3s;
+}
+
+.discord-btn:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid white;
+  transform: translateY(-2px);
+}
+
+.back:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

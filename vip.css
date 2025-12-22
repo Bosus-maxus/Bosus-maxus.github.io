@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: white;
+  height: 100vh;
+}
+
+.vip-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.vip-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+.dollah-img {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.vip-right {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(6px);
+}
+
+.vip-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0,255,255,0.3);
+}
+
+.vip-subtitle {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px rgba(0,255,255,0.3);
+}
+.disclamer{
+    font-size: 25px;
+}
+.vip-benefits {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.vip-benefits li {
+  margin-bottom: 10px;
+}
+
+.vip-button {
+  padding: 15px 25px;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  background: #00aaff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.vip-button:hover {
+  background: #0088cc;
+}
+
+@media (max-width: 900px) {
+  .vip-container {
+    flex-direction: column;
+  }
+
+  .vip-left, .vip-right {
+    flex: unset;
+    height: 50vh;
+  }
+
+  .vip-right {
+    padding: 40px 20px;
+  }
+}
