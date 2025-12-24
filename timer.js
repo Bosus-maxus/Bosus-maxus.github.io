@@ -1,5 +1,5 @@
 
-const launchDate = new Date(2026, 0, 3, 12, 0).getTime(); 
+const launchDate = new Date(2026, 0, 13, 12, 0).getTime(); 
 const countdownEl = document.getElementById("countdown");
 
 setInterval(() => {
@@ -18,3 +18,4 @@ setInterval(() => {
 
   countdownEl.textContent = `${days}d : ${hours}h : ${minutes}m : ${seconds}s`;
 }, 1000);
+
