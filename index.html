@@ -19,11 +19,10 @@
     <section class="info-section1">
       <h2>our concern</h2>
       <p>
-         We live surrounded by invisible threats—polluted air, rising temperatures, harsh UV, noise, and sudden humidity spikes.
+        We live surrounded by invisible threats—polluted air, rising temperatures, harsh UV, noise, and sudden humidity spikes.
         Yet most of the environmental data around us remains unknown or inaccurately measured, and that uncertainty affects everyone.
         As students and common people, we experience this gap every day: we are expected to be environmentally aware and health-conscious, but we lack access to clear, reliable information about the spaces we live, study, and move through. 
         Our concern is simple and shared by many—environmental awareness should not be limited to experts or institutions. Everyone deserves trustworthy, easy-to-understand data to make safer, smarter decisions in daily life.
-      </p>
       </p>
     </section>
 
@@ -35,27 +34,32 @@
         By replacing vague phone-based sensing with direct, professional-level measurements, the NANO makes invisible environmental risks visible and actionable. 
         This empowers individuals to make healthier, safer, and more environmentally conscious decisions wherever they are, proving a powerful, trustworthy environmental monitoring fitting in the palm of your hands.
       </p>
-      </p>
     </section>
 
-    <!-- WAITLIST -->
     <section class="waitlist-section">
       <h2>Join the Waitlist</h2>
 
-      <form onsubmit="return handleSignup();">
+      <form 
+        action="https://formspree.io/f/xbddldya" 
+        method="POST" 
+        onsubmit="return handleSignup();"
+      >
         <input 
           type="email" 
           id="email1" 
+          name="email"
           class="email-input" 
           placeholder="Enter your email" 
-          required>
+          required
+        >
 
         <input 
           type="email" 
           id="email2" 
           class="email-input" 
           placeholder="Re-enter your email" 
-          required>
+          required
+        >
 
         <button type="submit" class="button">Enter</button>
       </form>
@@ -72,4 +76,3 @@
   <script src="main.js"></script>
 </body>
 </html>
-
