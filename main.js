@@ -13,13 +13,12 @@ function handleSignup() {
     return false;
   }
 
+  // Optional: keep local copy (not required for Formspree)
   let waitlist = JSON.parse(localStorage.getItem("waitlistEmails")) || [];
-
   if (!waitlist.includes(e1)) {
     waitlist.push(e1);
     localStorage.setItem("waitlistEmails", JSON.stringify(waitlist));
   }
 
-  window.location.href = "reserve.html";
-  return false;
+  return true; 
 }
