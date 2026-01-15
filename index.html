@@ -37,41 +37,32 @@
     </section>
 
     <section class="waitlist-section">
-      <h2>Join the Waitlist</h2>
+  <h2>Join the Waitlist</h2>
 
-      <form 
-        action="https://formspree.io/f/xbddldya" 
-        method="POST" 
-        onsubmit="return handleSignup();"
-      >
-        <input 
-          type="email" 
-          id="email1" 
-          name="email"
-          class="email-input" 
-          placeholder="Enter your email" 
-          required
-        >
+  <form id="waitlistForm">
+    <input
+      type="email"
+      id="email1"
+      name="email"
+      class="email-input"
+      placeholder="Enter your email"
+      required
+    >
 
-        <input 
-          type="email" 
-          id="email2" 
-          class="email-input" 
-          placeholder="Re-enter your email" 
-          required
-        >
+    <input
+      type="email"
+      id="email2"
+      class="email-input"
+      placeholder="Re-enter your email"
+      required
+    >
 
-         <input
-           type="hidden"
-           name="_redirect"
-           value="https://bosus-maxus.github.io/reserve.html"
-         >
+    <button type="submit" class="button">Enter</button>
+  </form>
 
-        <button type="submit" class="button">Enter</button>
-      </form>
+  <p id="statusMessage"></p>
+</section>
 
-      <p id="statusMessage"></p>
-    </section>
 
     <section class="FAQ">
       <a href="FAQs.html"><button class="button">FAQs</button></a>
@@ -82,5 +73,6 @@
   <script src="main.js"></script>
 </body>
 </html>
+
 
 
